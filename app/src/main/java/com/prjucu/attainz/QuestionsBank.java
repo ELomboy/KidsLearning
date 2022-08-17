@@ -18,9 +18,7 @@ public class QuestionsBank {
         final QuestionsList question5 = new QuestionsList("What comes before the letter Z", "Y", "A", "X", "Q", "Y", "");
         final QuestionsList question6 = new QuestionsList("What's the middle of the letter A and C", "B", "D", "E", "F", "B", "");
 
-        QuestionsList.add(question1);
 
-        return QuestionsLists;
 
     }
 }
