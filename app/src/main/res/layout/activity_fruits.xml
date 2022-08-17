@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fruits">
+
+  <ViewFlipper
+      android:id="@+id/viewFruit"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fapple"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fapple"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/favocado"
+        android:scaleType="centerCrop"
+        android:src="@drawable/favocado"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fbanana"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fbanana"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fcherry"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fcherry"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fgrapes"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fgrapes"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fkiwi"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fkiwi"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/forange"
+        android:scaleType="centerCrop"
+        android:src="@drawable/forange"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fpinapple"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fpineapple"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fstrawberry"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fstrawberry"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fwatermelon"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fwatermelon"/>
+
+
+
+  </ViewFlipper>
+
+  <Button
+      android:id="@+id/next"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Next"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentEnd="true"/>
+
+  <Button
+      android:id="@+id/back"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Back"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentBottom="true"
+      android:layout_alignTop="@+id/next"/>
+
+  <Button
+      android:id="@+id/sound"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_toStartOf="@+id/next"
+      android:layout_toEndOf="@+id/back"
+      android:text="AUDIO" />
+
+  </RelativeLayout>

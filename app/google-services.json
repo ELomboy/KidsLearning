@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "82842092636",
+    "project_id": "attain-z",
+    "storage_bucket": "attain-z.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82842092636:android:e51b9b59fafd7a79edd299",
+        "android_client_info": {
+          "package_name": "com.prjucu.attainz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "82842092636-q576m1qk5qsr5nef33t5v7fqeg5cslt8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAo31A3BXQi3JMM6z83dZ_yXoB7n7jM8Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "82842092636-q576m1qk5qsr5nef33t5v7fqeg5cslt8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
